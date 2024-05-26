@@ -1,3 +1,5 @@
+Digital Reference Object Toolkit of Breast DCE-MRI
+
 Download entire BreastDCE_DRO repo and run 'example.m'
 
 example.m
@@ -19,5 +21,10 @@ example.m
 3. Radial k-space data generation: Current implementaion generates golden-angle separated radial trajectories based on the desired number of spokes per each temporal frame for sampling.
 
 4. GRASP recon using BART: Need BART toolkit installed for running recon. Please include BART directory in the path. Current command runs BART recon with TV regularization (lamb=0.01).
+-----------------------------------------------------------
+
+Reference:
+Bae J, Tan Z, Solomon E, Huang Z, Heacock L, Moy L, Knoll F, Kim SG, Digital reference object toolkit of breast DCE MRI for quantitative evaluation of image reconstruction and analysis methods, Magn Reson Med. 2024
+https://doi.org/10.1002/mrm.30152
 
    
